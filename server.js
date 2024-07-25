@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://daveabundis4:21canUdo$@cluster0.apaoqmt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://daveabundis4:<Password>@cluster0.apaoqmt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
