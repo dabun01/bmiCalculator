@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgb(173, 72, 72);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+form label {
+    color: #fbf6f6;
+    margin-top: 10px;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 3px;
+    background-color: gray;
+    color: #e0e0e0;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: rgb(9, 9, 9);
+    color: whitesmoke;
+    border-radius: 3px;
+    cursor: pointer;
+}
